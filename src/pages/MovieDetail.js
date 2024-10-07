@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
-import { useParams,Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 export const MovieDetail = () => {
   const params = useParams()
@@ -31,9 +31,7 @@ export const MovieDetail = () => {
   return (
     <section className='flex flex-wrap justify-evenly py-5'>
       <div className='max-w-md'>
-        <Link to="">
         <img className='rounded-lg' src={image} alt={movie.title}  />
-        </Link>
       </div>
       <div className='max-w-2xl text-gray-700  text-lg dark:text-white'>
           <h1 className='text-3xl font-bold my-3'>{movie.title}</h1>
