@@ -1,0 +1,13 @@
+Api = f884254e583f222e4a3a7fddb221cad6
+
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=f884254e583f222e4a3a7fddb221cad6
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=f884254e583f222e4a3a7fddb221cad6
+
+https://api.themoviedb.org/3/movie/popular?api_key=f884254e583f222e4a3a7fddb221cad6
+
+https://api.themoviedb.org/3/movie/top_rated?api_key=f884254e583f222e4a3a7fddb221cad6
+
+https://api.themoviedb.org/3/movie/upcoming?api_key=f884254e583f222e4a3a7fddb221cad6
+
+https://api.themoviedb.org/3/search/movie?api_key=f884254e583f222e4a3a7fddb221cad6&query={movie_name}
